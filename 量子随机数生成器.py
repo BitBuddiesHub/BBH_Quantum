@@ -2,9 +2,6 @@ import numpy as np
 from pyqpanda import *
 from dotenv import load_dotenv
 
-
-
-
 def quantum_random_number_generator():
     # 加载.env文件
     load_dotenv()
